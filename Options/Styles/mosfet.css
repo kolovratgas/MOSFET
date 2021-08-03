@@ -1,0 +1,202 @@
+@font-face {
+    font-family: 'Ruberoid';
+    src: url(Fonts/Ruberoid/Ruberoid-Light.ttf );
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(237, 238, 240, 1);
+    /*background-image: url('Stuff/bg1.jpg');*/
+    background-repeat: repeat-y;
+    background-size: 100%;
+    font-family: 'Ruberoid';
+    width: 100%;
+    height: 100%;
+}
+                                                                /* Главная страница */
+.oglavlenie{
+    margin-top: 10%;
+    text-align: center;
+    color: rgb(69, 111, 204);
+    font-size: 20px;
+    text-shadow: 1px 1px 2px rgb(122, 194, 230) 0 0 1em rgb(1, 1, 1);
+    border: 3px solid white;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.start{
+    float: central;
+    color: rgb(75, 175, 241);
+    margin-top: 2%;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 1px 1px 2px rgb(18, 19, 19), 0 0 1em rgb(108, 206, 236);
+    width: 30%;
+    margin-left: 35%;
+    border-radius: 15%;
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(69, 111, 204);
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(69, 111, 204);
+    text-shadow: 0 0 1em rgb(108, 206, 236);;
+
+}
+
+a:active{
+    color: rgb(108, 206, 236);
+}
+
+                                                                    /* Первая страница */
+.headerIN{
+    margin-top:1%;
+    float: center;
+    text-align: center;
+    color: rgb(69, 111, 204);
+    font-size: 20px;
+    text-shadow: 1px 1px 2px rgb(122, 194, 230) 0 0 1em rgb(1, 1, 1);
+    border: 1% solid white;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.content{
+  width: 50%;
+  margin-left: 25%;
+  display: inline-block;
+  text-align: center;
+
+}
+
+.content1{
+  width: 40%;
+  margin-left: 12%;
+  display: inline-block;
+}
+
+.textcontent{
+    border: 1px solid ;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.video{
+    width: 100%;
+}
+
+.math{
+    float: right;
+    margin-top: 5%;
+    margin-right: -10%;
+
+}
+
+.swipeR{
+    width: 10%;
+    margin-right: 8%;
+    float: right;
+    border: 0px solid black;
+    border-radius: 50%;
+}
+
+.swipeR1{
+  width: 10%;
+  margin-right: 8%;
+  float: right;
+  border: 0px solid black;
+  border-radius: 50%;
+  background-color: rgba(111, 130, 138, 0.5);
+
+}
+
+.swipeL{
+    float: left;
+    width: 10%;
+    margin-left: 8%;
+    border: 0px solid black;
+    border-radius: 50%;
+}
+
+.swipeL1{
+  float: left;
+  width: 10%;
+  margin-left: 8%;
+  border: 0px solid black;
+  border-radius: 50%;
+  background-color: rgba(111, 130, 138, 0.5);
+}
+
+.menu{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    margin-left: -12%;
+    background-color: rgb(200, 202, 202);
+    border: 2px solid rgb(84, 87, 87);
+    border-radius: 7%;
+    padding: 1%;
+    width: 9%;
+}
+
+.menuChapter{
+    background-color: rgba(211, 224, 224, 0.8);
+    color: black;
+    border: 1px solid rgba(111, 130, 138, 0.5);
+    margin-bottom: 1px;
+    border-radius: 7%;
+    text-align: center;
+}
+
+.menuChapter1{
+    background-color: rgba(211, 224, 224, 0.8);
+    color: black;
+    border: 1px solid rgba(111, 130, 138, 0.5);
+    margin-bottom: 1px;
+    border-radius: 7%;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.test{
+    margin-bottom: 5%;
+}
+
+.b1{
+    display: block;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.textcontentT{
+    display: block;
+    border: 1px solid ;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-bottom: 5%;
+}
+
+.testSwipe{
+    vertical-align: top;
+
+}
+
+.sidebar1{
+    display: inline-block;
+}
+
+.result{
+    resize: none;
+}
+
+
